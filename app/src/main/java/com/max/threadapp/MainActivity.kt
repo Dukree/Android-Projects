@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             val textview: TextView = findViewById(R.id.tv_horizontal)
             super.onResume()
             suspendFlag = true
-            //  if (!suspendFlag) {
+
             object : Thread() {
                 override fun run() {
                     while (currentvalue <= 100 && !suspendFlag) {
@@ -92,4 +92,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-//}
