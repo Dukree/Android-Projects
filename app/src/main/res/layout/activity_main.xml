@@ -44,8 +44,6 @@
             android:text="@string/thread" />
 
 
-
-
     </RelativeLayout>
 
 </RelativeLayout>
